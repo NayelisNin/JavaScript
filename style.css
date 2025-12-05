@@ -69,3 +69,10 @@ button:hover{
 button:active{
     color:dodgerblue;
 }
+
+#resultado{
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
