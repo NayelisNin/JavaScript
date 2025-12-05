@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: aliceblue;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 8px 20px rgba(0, 0, 255, 0.2);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border: 0px;
+    border-radius: 100px;
+    text-decoration: wavy underline;
+    text-shadow: 4px 4px 1px rgb(209, 169, 255);
+
+}
+
+label{
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+input{
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button{
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration:double underline overline paleturquoise;
+    background-color: blue;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkblue;
+    box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.5);
+    font-size: larger;
+}
+
+button:active{
+    color:dodgerblue;
+}
