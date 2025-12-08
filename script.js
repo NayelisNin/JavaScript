@@ -7,5 +7,7 @@ calcular.onclick = function () {
 
     let edad = 2025 - añoNacimiento;
 
-    resultado.textContent = "Hola, " + nombre + ". Tienes " + edad + " años.";
+    let nombreFinal = (nombre.length < 1 || nombre.length == 1 || nombre == "." ? "Fulano" : nombre);
+
+    resultado.textContent = "Hola, " + nombreFinal + ". Tienes " + edad + " años.";
 };
